@@ -6,7 +6,7 @@
 using namespace std;
 
 void calculate(const string& calcmessage);
-void MainMenu(const string& message1);
+void MainMenu(const string& message);
 
 
 void MainMenu(const string& message)
@@ -39,12 +39,16 @@ void MainMenu(const string& message)
 		calculate("Power required to hover");
 		break;
 	case 2:
+		MainMenu("Not implemented yet");
 		break;
 	case 3:
+		MainMenu("Not implemented yet");
 		break;
 	case 4:
+		MainMenu("Not implemented yet");
 		break;
 	case 5:
+		//end program
 		break;
 	default:
 		cout << "Invalid selection \n";
